@@ -5,5 +5,5 @@ class Asignatura:
         self._salon = salon
 
     def __str__(self):
-        materia=self._nombre + " " + self._salon
-        return materia
+        return self._nombre + " " + self._salon
+
